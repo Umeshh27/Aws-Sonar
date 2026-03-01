@@ -12,8 +12,8 @@ class CseControllerTest {
 	CseController c;
 	@Test
 	void test() {
-		int result = c.addCSE(2, 3);
-		assertEquals(5, result);
+		int result = c.addCSE(12,13);
+		assertEquals(25, result);
 	}
 	@Test
 	void test1() {
